@@ -27,6 +27,7 @@ public class Solution {
         @Override @Deprecated
         public void voidMethod() throws Exception {
             System.out.println("Hello!");
+            System.out.println("World!");
             super.voidMethod();
         }
     }
